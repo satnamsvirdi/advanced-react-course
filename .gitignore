@@ -1,5 +1,7 @@
 # Yarn Error Logs
 yarn-error.log
 
-# Node Moodules
-node_modules
+# Node Modules
+node_modules/
+
+public/bundle.js
