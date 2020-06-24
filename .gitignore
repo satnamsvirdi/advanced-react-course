@@ -5,3 +5,9 @@ yarn-error.log
 node_modules/
 
 public/bundle.js
+
+advanced-react.sublime-workspace
+
+advanced-react-pr oject.sublime-workspace
+
+--no-check-certificate

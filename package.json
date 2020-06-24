@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec babel-node lib/server.js",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -16,9 +17,10 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "babel-eslint": "7.2.3",
     "eslint": "^7.1.0",
-    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react": "6.10.3",
+    "jest": "19.0.2",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
