@@ -48,10 +48,18 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 180,
+				"buffer_size": 866,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "__tests__/DataApi.js",
+			"settings":
+			{
+				"buffer_size": 708,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -103,14 +111,19 @@
 	"expanded_folders":
 	[
 		"/F/advanced-react",
-		"/F/advanced-react/__tests__"
+		"/F/advanced-react/__tests__",
+		"/F/advanced-react/lib",
+		"/F/advanced-react/public"
 	],
 	"file_history":
 	[
+		"/F/advanced-react/.eslintrc.js",
+		"/F/advanced-react/__tests__/DataApi.js",
+		"/F/advanced-react/lib/DataApi.js",
+		"/F/advanced-react/.gitignore",
 		"/F/advanced-react/advanced-react-project.sublime-project",
 		"/F/advanced-react/lib/components/index.js",
 		"/F/advanced-react/lib/server.js",
-		"/F/advanced-react/.gitignore",
 		"/F/advanced-react/yarn.lock",
 		"/F/advanced-react/package.json",
 		"/F/advanced-react/webpack.config.js",
@@ -185,30 +198,61 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 180,
+						"buffer_size": 866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								0,
+								338
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 155.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "__tests__/DataApi.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
