@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"date",
+				"dateString"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"Art",
+				"ArticleList"
+			],
+			[
 				"article",
-				"articleTitle"
+				"ArticleList"
+			],
+			[
+				"articles",
+				"articles"
 			],
 			[
 				"art",
@@ -52,6 +68,44 @@
 			"settings":
 			{
 				"buffer_size": 866,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/components/App.js",
+			"settings":
+			{
+				"buffer_size": 480,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/components/ArticleList.js",
+			"settings":
+			{
+				"buffer_size": 315,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import React from 'react';"
+			}
+		},
+		{
+			"file": "lib/components/Article.js",
+			"settings":
+			{
+				"buffer_size": 1001,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import React from 'react';"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 199,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -113,16 +167,17 @@
 		"/F/advanced-react",
 		"/F/advanced-react/__tests__",
 		"/F/advanced-react/lib",
+		"/F/advanced-react/lib/components",
 		"/F/advanced-react/public"
 	],
 	"file_history":
 	[
+		"/F/advanced-react/lib/components/index.js",
 		"/F/advanced-react/.eslintrc.js",
 		"/F/advanced-react/__tests__/DataApi.js",
 		"/F/advanced-react/lib/DataApi.js",
 		"/F/advanced-react/.gitignore",
 		"/F/advanced-react/advanced-react-project.sublime-project",
-		"/F/advanced-react/lib/components/index.js",
 		"/F/advanced-react/lib/server.js",
 		"/F/advanced-react/yarn.lock",
 		"/F/advanced-react/package.json",
@@ -193,7 +248,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -209,8 +264,8 @@
 						"selection":
 						[
 							[
-								0,
-								338
+								339,
+								339
 							]
 						],
 						"settings":
@@ -223,11 +278,125 @@
 						"translation.y": 155.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "lib/components/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/components/ArticleList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import React from 'react';",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/components/Article.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import React from 'react';",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "__tests__/DataApi.js",
 					"semi_transient": false,
 					"settings":
@@ -252,7 +421,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -334,7 +503,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
