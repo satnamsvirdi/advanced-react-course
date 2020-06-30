@@ -1,4 +1,4 @@
-import DataApi from "../lib/DataApi";
+import DataApi from "state-api";
 import { data } from "../lib/testData";
 
 const api = new DataApi(data);
