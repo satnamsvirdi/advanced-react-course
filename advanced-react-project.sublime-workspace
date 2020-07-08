@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"Ar",
+				"Article"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
+				"bab",
+				"babel-loader"
+			],
+			[
+				"p",
+				"preset-stage-2"
+			],
+			[
+				"pl",
+				"plugin-proposal-class-properties"
+			],
+			[
+				"pre",
+				"preset-stage-2"
+			],
+			[
+				"pret",
+				"preset-react"
+			],
+			[
+				"A",
+				"Article"
+			],
+			[
+				"pr",
+				"PropTypes"
+			],
+			[
 				"Ser",
 				"serverRender"
 			],
@@ -80,23 +116,21 @@
 	"buffers":
 	[
 		{
-			"contents": "import React from 'react';\nimport axios from 'axios';\n\nimport DataApi from \"state-api\";\nimport ArticleList from './ArticleList';\n\nclass App extends React.Component {\n\tstate = {\n\t\tarticles: this.props.initialData.articles,\n\t\tauthors: this.props.initialData.authors\n\t};\n\t\n\tarticleActions = {\n\t\tlookupAuthor: authorId => this.state.authors[authorId],\n\t}\n\n\trender() {\n\t\treturn (\n\t\t\t<ArticleList \n\t\t\t\tarticles={this.state.articles}\n\t\t\t\tarticleActions={this.articleActions}\n\t\t\t/>\n\t\t\t);\n\t}\n};\n\nexport default App;",
-			"file": "lib/components/App.js",
-			"file_size": 867,
-			"file_write_time": 132379848415166391,
+			"file": "lib/state-api/package.json",
 			"settings":
 			{
-				"buffer_size": 506,
+				"buffer_size": 154,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/renderers/server.js",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 585,
-				"line_ending": "Windows"
+				"buffer_size": 2293,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -146,31 +180,35 @@
 	"expanded_folders":
 	[
 		"/F/advanced-react",
-		"/F/advanced-react/__tests__",
 		"/F/advanced-react/lib",
 		"/F/advanced-react/lib/components",
-		"/F/advanced-react/lib/renderers",
-		"/F/advanced-react/views"
+		"/F/advanced-react/lib/components/__tests__",
+		"/F/advanced-react/lib/state-api",
+		"/F/advanced-react/lib/state-api/lib"
 	],
 	"file_history":
 	[
+		"/F/advanced-react/package.json",
+		"/F/advanced-react/webpack.config.js",
+		"/F/advanced-react/lib/components/__tests__/articleListTest.js",
+		"/F/advanced-react/lib/state-api/package.json",
+		"/F/advanced-react/lib/state-api/lib/index.js",
+		"/F/advanced-react/.babelrc",
+		"/F/advanced-react/babel.config.js",
+		"/F/advanced-react/lib/components/Article.js",
+		"/F/advanced-react/lib/components/App.js",
+		"/F/advanced-react/lib/components/ArticleList.js",
+		"/F/advanced-react/lib/testData.json",
+		"/F/advanced-react/lib/renderers/dom.js",
+		"/F/advanced-react/lib/renderers/server.js",
+		"/F/advanced-react/__tests__/DataApi.js",
 		"/F/advanced-react/views/index.ejs",
 		"/F/advanced-react/lib/server.js",
-		"/F/advanced-react/lib/renderers/server.js",
-		"/F/advanced-react/lib/renderers/dom.js",
-		"/F/advanced-react/lib/components/App.js",
 		"/F/advanced-react/lib/config.js",
-		"/F/advanced-react/lib/components/ArticleList.js",
-		"/F/advanced-react/lib/state-api/lib/index.js",
-		"/F/advanced-react/__tests__/DataApi.js",
 		"/F/advanced-react/lib/DataApi.js",
-		"/F/advanced-react/webpack.config.js",
-		"/F/advanced-react/package.json",
 		"/F/advanced-react/lib/components/index.js",
-		"/F/advanced-react/lib/components/Article.js",
 		"/F/advanced-react/.gitignore",
 		"/F/advanced-react/lib/serverRender.js",
-		"/F/advanced-react/lib/components/__tests__/articleListTest.js",
 		"/F/advanced-react/.eslintrc.js",
 		"/F/advanced-react/advanced-react-project.sublime-project",
 		"/F/advanced-react/yarn.lock",
@@ -223,6 +261,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\",\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -245,25 +284,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lib/components/App.js",
+					"file": "lib/state-api/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 506,
+						"buffer_size": 154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								154,
+								154
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -274,28 +312,29 @@
 				},
 				{
 					"buffer": 1,
-					"file": "lib/renderers/server.js",
-					"semi_transient": true,
+					"file": "package.json",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 2293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								350,
-								433
+								443,
+								443
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 137.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -381,7 +420,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
