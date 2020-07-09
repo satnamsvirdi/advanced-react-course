@@ -4,12 +4,9 @@ yarn-error.log
 # Node Modules
 node_modules/
 
+# Webpack Build
 public/bundle.js
 
+# Sublime Workspaces
 advanced-react.sublime-workspace
-
 advanced-react-project.sublime-workspace
-
---no-check-certificate
-
-public/bundle.js
