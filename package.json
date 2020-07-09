@@ -9,28 +9,7 @@
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties",
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
-      ],
-      "@babel/plugin-proposal-export-namespace-from",
-      "@babel/plugin-proposal-function-sent",
-      "@babel/plugin-proposal-json-strings",
-      "@babel/plugin-proposal-numeric-separator",
-      "@babel/plugin-proposal-throw-expressions",
-      "@babel/plugin-syntax-dynamic-import",
-      "@babel/plugin-syntax-import-meta"
-    ]
-  },
+  
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.1.0",
@@ -63,6 +42,7 @@
     "axios": "^0.19.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "ejs": "^3.1.3",
     "esm": "^3.2.25",
     "express": "^4.17.1",

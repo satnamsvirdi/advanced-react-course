@@ -34,7 +34,8 @@ const config = {
                             '@babel/plugin-proposal-numeric-separator',
                             '@babel/plugin-proposal-throw-expressions',
                             '@babel/plugin-syntax-dynamic-import',
-                            '@babel/plugin-syntax-import-meta'
+                            '@babel/plugin-syntax-import-meta',
+                            ["transform-class-properties", { "spec": true }]
                         ]
                     }
                 }

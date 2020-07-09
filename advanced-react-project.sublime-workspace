@@ -116,21 +116,20 @@
 	"buffers":
 	[
 		{
-			"file": "lib/state-api/package.json",
-			"settings":
-			{
-				"buffer_size": 154,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "package.json",
 			"settings":
 			{
 				"buffer_size": 2293,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 1515,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -188,10 +187,12 @@
 	],
 	"file_history":
 	[
-		"/F/advanced-react/package.json",
+		"/F/advanced-react/.gitignore",
 		"/F/advanced-react/webpack.config.js",
-		"/F/advanced-react/lib/components/__tests__/articleListTest.js",
+		"/F/advanced-react/yarn-error.log",
 		"/F/advanced-react/lib/state-api/package.json",
+		"/F/advanced-react/package.json",
+		"/F/advanced-react/lib/components/__tests__/articleListTest.js",
 		"/F/advanced-react/lib/state-api/lib/index.js",
 		"/F/advanced-react/.babelrc",
 		"/F/advanced-react/babel.config.js",
@@ -207,7 +208,6 @@
 		"/F/advanced-react/lib/config.js",
 		"/F/advanced-react/lib/DataApi.js",
 		"/F/advanced-react/lib/components/index.js",
-		"/F/advanced-react/.gitignore",
 		"/F/advanced-react/lib/serverRender.js",
 		"/F/advanced-react/.eslintrc.js",
 		"/F/advanced-react/advanced-react-project.sublime-project",
@@ -279,39 +279,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/state-api/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								154,
-								154
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
@@ -323,8 +295,8 @@
 						"selection":
 						[
 							[
-								443,
-								443
+								445,
+								445
 							]
 						],
 						"settings":
@@ -334,10 +306,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 137.0,
+						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								540,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
