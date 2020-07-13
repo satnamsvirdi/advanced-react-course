@@ -10,3 +10,6 @@ public/bundle.js
 # Sublime Workspaces
 advanced-react.sublime-workspace
 advanced-react-project.sublime-workspace
+
+# Yarn Lock
+yarn.lock
