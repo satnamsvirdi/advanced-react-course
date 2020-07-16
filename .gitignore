@@ -5,6 +5,8 @@ yarn-error.log
 node_modules/
 
 # Webpack Build
+public/app.js
+public/vendor.js
 public/bundle.js
 
 # Sublime Workspaces
