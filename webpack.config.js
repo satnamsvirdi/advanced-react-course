@@ -11,7 +11,7 @@ const config = {
     
     entry: {
         vendor: [
-            'babel-polyfill',
+            '@babel/polyfill',
             'react',
             'react-dom',
             'prop-types',
