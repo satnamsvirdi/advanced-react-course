@@ -1,3 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ArticleList renders correctly 1`] = `ShallowWrapper {}`;
+exports[`ArticleList renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="article-a"
+    />
+    <div
+      data-testid="article-b"
+    />
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
 module.exports = {
-  "parser": 'babel-eslint',
+  "parser": '@babel/eslint-parser',
   "env": {
     "browser": true,
     "commonjs": true,
@@ -10,12 +10,20 @@ module.exports = {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "jsx": true,
     },
-    "sourceType": "module"
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
   },
   "plugins": [ "react" ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "react/prop-types": ["off"],
     "indent": ["error", 2],

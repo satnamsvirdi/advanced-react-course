@@ -8,6 +8,7 @@ node_modules/
 public/app.js
 public/vendor.js
 public/bundle.js
+public/vendors-*.js
 
 # Sublime Workspaces
 advanced-react.sublime-workspace
@@ -15,6 +16,9 @@ advanced-react-project.sublime-workspace
 
 # Yarn Lock
 yarn.lock
+
+# Package Lock
+package-lock.json
 
 # Jest  Coverage Dir.
 coverage/
