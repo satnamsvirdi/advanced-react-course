@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 
 const config = {
     resolve: {
@@ -11,7 +10,6 @@ const config = {
     
     entry: {
         vendor: [
-            '@babel/polyfill',
             'react',
             'react-dom',
             'prop-types',
@@ -42,14 +40,11 @@ const config = {
             }
         ]
     },
-    plugins: {
-        optimization: {
-            splitChunks: {
-              chunks: 'all'
-            }
-  }
+    optimization: {
+        splitChunks: {
+          chunks: 'all'
+        }
     }
-    
 }
 
 module.exports = config;

@@ -16,6 +16,9 @@ advanced-react-project.sublime-workspace
 # Yarn Lock
 yarn.lock
 
+# Package Lock
+package-lock.json
+
 # Jest  Coverage Dir.
 coverage/
 
