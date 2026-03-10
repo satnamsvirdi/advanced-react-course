@@ -8,6 +8,7 @@ node_modules/
 public/app.js
 public/vendor.js
 public/bundle.js
+public/vendors-*.js
 
 # Sublime Workspaces
 advanced-react.sublime-workspace
