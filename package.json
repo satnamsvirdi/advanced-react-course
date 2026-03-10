@@ -11,12 +11,12 @@
     "verify-tests": "jest --coverage",
     "build-webpack": "webpack --mode production",
     "build-node": "babel lib -d build --copy-files",
-    "start-prod": "NODE_ENV=production NODE_PATH=./build node build/server.js"
+    "start-prod": "NODE_ENV=production NODE_PATH=./build nodemon build/server.js"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.24.7",
-    "@testing-library/react": "^16.1.0",
     "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
     "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
@@ -33,7 +33,7 @@
     "@babel/node": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-react": "^7.24.7",
-    "axios": "^1.7.2",
+    "axios": "^1.13.6",
     "babel-loader": "^9.1.3",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
