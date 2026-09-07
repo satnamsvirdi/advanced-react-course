@@ -21,3 +21,5 @@ coverage/
 
 # Node Build
 build/
+# Session DB
+.session.db
